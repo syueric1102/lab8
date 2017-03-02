@@ -10,5 +10,6 @@ $(document).ready(function() {
  */
 function initializePage() {
   initCamera();
+  $('#camera-change').click(enableCamera);
 }
 
